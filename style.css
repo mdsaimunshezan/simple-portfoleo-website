@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#banner__area{
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.half__width{
+    width: 50%;
+}
+#banner__area h1{
+    font-size: 50px;
+    padding-top: 30px;
+}
+#banner__area span{
+    color: orange;
+}
+#banner__area h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    background: tomato;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: wheat;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.profile__image img{
+    width: 500px;
+    height: 450px;
+}
+
+#dream__area{
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    /* padding: 0px 80px; */
+    align-items: center;
+    padding: 150px 80px;
+   
+}
+.dream__image img{
+    width: 450px;
+    height: 450px;
+}
+.dream__title h1 {
+    font-size: 50px;
+}
+.dream__title h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.expreance__area {
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 0px 80px;
+    margin-top: 50px;
+}
+.expreance__area .devloper {
+    box-shadow: 0px 10px 40px gray;
+    margin-right: 50px;
+    padding: 30px 0px;
+    padding-left: 30px;
+
+}
+ .border_first{
+    border-left: 8px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+.border_second{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.expreance__area h1 {
+    font-size: 40px;
+}
+.expreance__area .orange{
+    color: orange;
+    
+}
+.expreance__area h3{
+    padding: 20px 0px;
+}
+footer h5 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: gray;
+}
